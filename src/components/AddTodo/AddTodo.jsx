@@ -16,7 +16,7 @@ const AddTodo = () => {
   }
 
   return (
-    <div className="d-flex m-3">
+    <div className="d-flex m-4">
       <Form.Control
         type="text"
         placeholder="add todo"
@@ -24,7 +24,7 @@ const AddTodo = () => {
         value={inpValue}
         onChange={(e) => setInpValue(e.target.value)}
       />
-      <Button variant="warning" onClick={handleClick}>
+      <Button variant="danger" onClick={handleClick}>
         Add
       </Button>
     </div>
