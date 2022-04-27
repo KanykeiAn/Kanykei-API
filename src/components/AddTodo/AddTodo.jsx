@@ -16,7 +16,7 @@ const AddTodo = () => {
   }
 
   return (
-    <div className="d-flex m-4">
+    <div className="d-flex m-3">
       <Form.Control
         type="text"
         placeholder="add todo"
